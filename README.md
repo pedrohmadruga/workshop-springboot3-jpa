@@ -4,10 +4,15 @@
 
 ## Project Structure
 ├── course/
+
 │   ├── config/
+
 │   ├── entities/
+
 │   ├── repositories/
+
 │   └── resources/
+
 │   └── services/
 
 The project was created to manage HTTP requests. The config package is responsible for loading the needed information for testing in the H2 database, while the rest are responsible for managing the application itself.
